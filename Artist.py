@@ -21,7 +21,7 @@ import turtle
 import numpy as np
 
 TURTLE_SIZE =20
-SQUARE_SIZE = 
+SQUARE_SIZE = 75
 
 class MarkovArtist:
     def __init__(self, transition_matrix):
