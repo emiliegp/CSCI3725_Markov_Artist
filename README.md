@@ -1,11 +1,13 @@
 # CSCI3725_Markov_Artist
 Emilie Grand'Pierre
+
 M3: A Markov Distinction 
 Project Instructions: Use a Markov chain to create a piece of visual art that is meaningful. 
 
 As I was setting up my dorm room, I noticed how the quilt I have carried wiht me throughout my time at Bowdoin does not match well with my multi-colored rug. There is not much of a pattern to the rug, but I love my bedspread to be mainly geomatric: I have striped sheets and a white comforter with quilted squares. When given this project, I thought it would be great to design a quilt that would bring more cohesion to this room while also incorperating some of the music posters in my room.
 
 In this model, music notes from my three favorties songs--Show Me" by James Blake, "Phoenix" by ASAP Rocky, and "Comfortably Numb" by Pink Floyd--are used to define a transition matrix that determines the next note to create a patchworked masterpiece using the Turtle library. I skipped Intro to CS, so I have not coded in Python for about 2 years and have never used the Turtle library, so this project was a great way to get reacquainted with Python and use a nifty drawing library. Using the in-class MarkovMusician as a guide, this project pushed me to express computational descisons through graphics. Furthermore, the open-ended nature of the prompt forced me to adopt a more open-minded perspective when interacting with code in an educational and creative sense. Overall, my Markov Artist reinforced MDP by addressing a problem wildly different than GridWorld or the other instances where I have encountered fundamental AI priciples. In sum, it connected Computer Science to my broader experience at Bowdoin. 
+
 
 
 **Building the Transition Matrix and Mapping Notes to Colors**
@@ -25,6 +27,7 @@ Notes are then mapped to specific colors:
     G --> blue 
 
 The result is a 2D model of a mutli-colored quilt that if created would bring such vibrance to my dorm room during the Maine winter! Going forward, it would be interesting to make the transiton matrix a dynamic model that takes input from the user so that the color scheme of the rug can change based on the songs entered. By considering more complex musical componenets, the model could also incorperate patterns and shades to the quilt design. Additionally, it would be interesting to experiment with other drawing libraries to add things like texture to the 2D model.
+
 
 
 **How to use & is it Creative?**
