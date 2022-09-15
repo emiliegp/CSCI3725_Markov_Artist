@@ -12,7 +12,7 @@ In this model, music notes from my three favorties songs--Show Me" by James Blak
 
 **Building the Transition Matrix and Mapping Notes to Colors**
 
-To begin, I compiled a list of piano notes for the three songs, taking note of the order in which the notes appeared. If the song includes a particular note, then it is considered in the transition matrix. For example, in "Show Me," a F is followed by a C or E, but in "Pheonix" a F is always followed by a C. It follows then that in the transition matrix, if the note is C, the following note will be F with a probablity of .75 or an E with a probability of .25. This logic was followed for all notes in the key. 
+To begin, I compiled a list of piano notes for the three songs, taking note of the order in which the notes appeared. If the song included a particular note, then it was considered in the transition matrix. For example, in "Show Me," a F is followed by a C or E, but in "Pheonix" a F is always followed by a C. It follows then that in the transition matrix, if the note is C, the following note will be F with a probablity of .75 or an E with a probability of .25. This logic was followed for all notes in the key. 
 
 I simplified the notes to exclude the sharps and flats. 
 
