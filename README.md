@@ -26,12 +26,12 @@ Notes are then mapped to specific colors:
     A --> purple
     G --> blue 
 
-The result is a 2D model of a mutli-colored quilt that if created would bring such vibrance to my dorm room during the Maine winter! Going forward, it would be interesting to make the transiton matrix a dynamic model that takes input from the user so that the color scheme of the rug can change based on the songs entered. By considering more complex musical componenets, the model could also incorperate patterns and shades to the quilt design. Additionally, it would be interesting to experiment with other drawing libraries to add things like texture to the 2D model.
+The result is a 2D model of a mutli-colored quilt that if created would bring such vibrance to my dorm room during the Maine winter! Going forward, it would be interesting to make the transiton matrix a dynamic model that takes input from the user so that the color scheme of the rug can change based on the songs entered. By considering more complex musical components, the model could also incorperate patterns and shades to the quilt design. Additionally, it would be interesting to experiment with other drawing libraries to add things like texture to the 2D model.
 
 
 
 **How to use & is it Creative?**
 
-To use, simple download the repositiory and run the Artist.py file. If you would like to create smaller or larger pathes in your quilt simply update the Global variable SQUARE_SIZE: inputting a SQUARE_SIZE of 300 leads to only 4 squares being created. 
+To use, simply download the repositiory and run the Artist.py file. If you would like to create smaller or larger pathes in your quilt simply update the Global variable SQUARE_SIZE: inputting a SQUARE_SIZE of 300 leads to only 4 squares being created; the default is currently set to SQUARE_SIZE of 75.
 
-WHen considering if this mdoel is creative, I turned to Maragret Boden's definitions of creaitivty. This model is certainly not H-creative, but could be argued to be P-creative and combinational. Each quilt model produced by the MarkovArtist is unique, yet it depends on familiar ideas stored in the Turtle library, definined in the 'square' method, and Markov chains. For both the AI system, and for myself, something new was created. 
+When considering if this mdoel is creative, I turned to Maragret Boden's definitions of creaitivty. This model is certainly not H-creative, but could be argued to be combinationally P-creative. Each quilt model produced by the MarkovArtist is unique, yet it depends on familiar ideas stored in the Turtle library, definined in the 'square' method, and Markov chains. For both the AI system and myself, something new was created using techniques, languages, and libraries to create something new and colorful.  
