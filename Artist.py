@@ -13,7 +13,7 @@
         C --> red
         E --> orange
         B --> pink
-        D --> brown
+        D --> grey
         A --> purple
         G --> blue 
 """
@@ -22,7 +22,7 @@ import turtle
 import numpy as np
 
 TURTLE_SIZE =20
-SQUARE_SIZE = 75
+SQUARE_SIZE = 20
 
 class MarkovArtist:
     def __init__(self, transition_matrix):
@@ -71,7 +71,7 @@ class MarkovArtist:
     def note_to_color(self, matrix):
         """
             A helper method that maps notes to specific colors and updates painting_colors
-            
+
             :param matrix: the list of notes determined by the transition matrix
         """
         for note in matrix:
@@ -84,7 +84,7 @@ class MarkovArtist:
             elif note == "B":
                 self.patining_colors.append("Pink")
             elif note == "D":
-                self.patining_colors.append("Brown")
+                self.patining_colors.append("Grey")
             elif note == "A":
                 self.patining_colors.append("Purple")
             elif note == "G":
